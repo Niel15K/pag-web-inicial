@@ -1,0 +1,179 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(34, 34 ,34);
+    color: white;
+    font-family: BebasNeue;
+    max-width: 1200px;
+    margin: 0 auto; /* centraliza horizontalmente */
+    padding: 15px;
+    border: none;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+}
+
+.container {
+    max-width: 100%;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 0.625em;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+    font-family: BebasNeue
+}
+
+.logo {
+font-size: 24px;
+text-transform: uppercase;
+letter-spacing: 4px;
+top: left;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: BebasNeue;
+    height: 8vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+letter-spacing: 3px;
+margin-left: 32px;
+}
+
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background-color: #fff;
+    margin: 8px;
+}
+
+    a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(132, 13, 201);
+    transition: 0.3s all;
+}
+
+#conta{
+    border: 2px solid rgb(132, 13, 201);
+    border-radius: 15px;
+}
+
+#conta:hover{
+    background-color: rgb(132, 13, 201);
+    color: white;
+}
+
+h1 {
+    font-weight: 30px;
+    position: absolute;
+    top: 3;
+    left: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.125em;
+}
+
+h2 {
+    font-size: 60px;
+    max-width: 500px;
+    line-height: 50px;
+    font-family: coolvetica;
+}
+
+span {
+    color: rgb(132, 13, 201)
+}
+
+p {
+    line-height: 40px;
+    font-family: coolvetica;
+    font-size: 25px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type='submit']{
+    height: 60px;
+    width: 50%;
+    background-color: rgb(132, 13, 201);
+    color: white;
+    font-size: bold;
+}
+
+form [type='submit']{
+    cursor: pointer;
+}
+
+form [type='text']{
+    border: 3px solid #840dc9;
+    outline: none;
+}
+
+form [type='email']{
+    border: 3px solid #840dc9;
+    outline: none;
+}
+
+.gradiente {
+    background: linear-gradient(to right, #840dc9, #8e59ff, #840dc9);
+    /* Transição suave */
+    transition: background 0.3s ease-in-out;
+}
+
+gradient:hover {
+    background: linear-gradient(to right, #840dc9, #ff00ff, #8e59ff);
+
+    /* Transição suave */
+    transition: background 0.3s ease-in-out;
+}
+
+
+input {
+    margin-top: 1.25em;
+    height: 1.25em;
+    padding: 0.9375em;
+    border-radius: 1.25em;
+    border: none;
+    font-size: 1.25em;
+}

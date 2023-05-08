@@ -1,0 +1,20 @@
+@font-face {
+    font-family: BebasNeue;
+    src: url('../components/fonts/BebasNeue-Regular.woff') format('woff'), 
+    url('../components/fonts/BebasNeue-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: coolvetica;
+    src: url('/components/fonts/coolvetica\ condensed\ rg.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url('/components/fonts/poppins-medium-webfont.woff') format('woff'),
+    url('/components/fonts/poppins-medium-webfont.woff2') format('woff2');
+}
